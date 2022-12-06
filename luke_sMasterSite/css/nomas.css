@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #7d0000;
+    color: #fff;
+    font-family: 'Noto Serif JP', "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;}
+h1 {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+#bdr th {
+    background-color: #fff;
+    border-collapse: collapse;
+    /* border: 0.5px solid #333; */
+    border-bottom: solid 1px rgba(195, 195, 195, 0.8);
+    padding:10px 0px;
+    vertical-align: middle;
+}
+#bdr td {
+    background-color: #fff;
+    border-collapse: collapse;
+    /* border: 0.5px solid #333; */
+    border-bottom: solid 1px rgba(195, 195, 195, 0.8);
+    padding:10px 0px;
+    vertical-align: middle;
+}
+#bdr th:nth-child(even) {
+    background-color: rgba(195, 195, 195, 0.2);
+}
+#bdr td:nth-child(odd) {
+    background-color: rgba(195, 195, 195, 0.2);
+}
+.table {
+    width: 100%;
+    margin-bottom: 100px;
+    color: #333;
+    font-size: 18px;
+    border: #e5e5e5 20px ridge;
+}
+.text-center {
+    width: 10rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.text-date {
+    width: 20rem;
+}
+.text-title {
+    width: 30rem;
+}
+.text-comment {
+    width: 80rem;
+}
+.td-date, .td-cate, .td-title {
+    text-align: center;
+}
+.padding-y-5 {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+p {
+    margin-bottom: 2rem;
+}
+input[type=submit] {
+    margin-right: 15px;
+    padding: 10px 13px 11px;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid #c3c3c3;
+    color: #333;
+    background-color: #fff;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    /* margin-left: 270px; */
+    /* margin-right: 25px; */
+}
+input[type=submit]:hover {
+    background: #e5e5e5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, #e5e5e5), color-stop(0, #e5e5e5));
+    background: -webkit-linear-gradient(#e5e5e5, #e5e5e5);
+}
+input[type=button] {
+    margin-left: 15px;
+    padding: 10px 13px 11px;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid #c3c3c3;
+    color: #333;
+    background-color: #fff;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    /* margin-left: 270px; */
+    /* margin-right: 25px; */
+}
+input[type=button]:hover {
+    background: #e5e5e5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, #e5e5e5), color-stop(0, #e5e5e5));
+    background: -webkit-linear-gradient(#e5e5e5, #e5e5e5);
+}
+button {
+    padding: 10px 13px 11px;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid #c3c3c3;
+    color: #333;
+    background: #fff;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+button:hover {
+    background: #e5e5e5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, #e5e5e5), color-stop(0, #e5e5e5));
+    background: -webkit-linear-gradient(#e5e5e5, #e5e5e5);
+}
+footer P {
+    background-color: #410000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+    text-align: center;   
+}
+footer P small{
+    font-family: 'Noto Serif JP', serif;
+    /* font-weight: bold; */
+    font-size: 18px;
+}

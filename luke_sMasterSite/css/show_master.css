@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.text-date {
+    width: 15rem;
+    text-align: center;
+}
+.text-title {
+    width: 15rem;
+    text-align: center;
+}
+.text-comment {
+    width: 60rem;
+}
+.text-right {
+    text-align: left;
+}
+.margin-top-10 {
+    margin-top: 0;
+}
+strong {
+    font-weight: normal;
+}
+.padding-y-5 p {
+    margin-top: 30px;
+}
+input[type="submit"] {
+    margin-top: 30px;
+    font-weight: normal;
+}
+input[type="button"] {
+    margin-top: 30px;
+    font-weight: normal;
+}
+.log {
+    text-align: center;
+    margin-left: 50%;}
+.form-control {
+    font-family: 'Noto Serif JP', serif;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#bdr table ,#bdr th ,#bdr td{
+    background-color: #fff;
+    border-collapse: collapse;
+    border:1px solid #000000;
+    padding:2px 5px;/*上下 左右*/
+    vertical-align: middle;
+}
