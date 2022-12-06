@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #7d0000;
+    color: #fff;
+    font-family: 'Noto Serif JP', "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}

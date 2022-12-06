@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #7d0000;
+    color: #fff;
+    font-family: 'Noto Serif JP', "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+p {
+    font-size: 18px;
+}
+h1 {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+h2 {
+    margin-bottom: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.guide {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.price {
+    margin-bottom: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.gallery_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery_image {
+    text-align: center;
+}
+.gallery_image img {
+    width: 60%;
+}
+.gallery_comment p {
+    margin-bottom: 100px;
+    line-height: 3.5;
+}
+.guidePrice_comment p {
+    margin: 70px 0;
+    line-height: 3.5;
+}
+.back_btn {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.babtn {
+    display: inline-block;
+}
+button {
+    padding: 10px 13px 11px;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid #c3c3c3;
+    color: #333;
+    background: #fff;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    /* margin-left: 30px; */
+    margin-right: 30px;
+}
+button:hover {
+    background: #e5e5e5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, #e5e5e5), color-stop(0, #e5e5e5));
+    background: -webkit-linear-gradient(#e5e5e5, #e5e5e5);
+}
+input[type=button] {
+    padding: 10px 13px 11px;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid #c3c3c3;
+    color: #333;
+    background: #fff;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    /* margin-left: 270px; */
+    /* margin-right: 25px; */
+}
+_::-webkit-full-page-media,_:future,:root input[type=button] {
+    padding: 10px 13px 11px;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid #c3c3c3;
+    color: #333;
+    background: #fff;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.28);
+    /* margin-left: 270px; */
+    /* margin-right: 25px; */
+}
+input[type=button]:hover {
+    background: #e5e5e5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1, #e5e5e5), color-stop(0, #e5e5e5));
+    background: -webkit-linear-gradient(#e5e5e5, #e5e5e5);
+}
+footer P {
+    background-color: #410000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    text-align: center;
+    
+}
+
+
+@media screen and (max-width: 800px){
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .guide {
+        font-size: 22px;
+    }
+    .price {
+        font-size: 22px;
+    }
+}
+/* 800px */
+
+@media screen and (max-width: 616px){
+    .gallery_comment p {
+        line-height:2.5;
+        margin: 0 1rem;
+        margin-bottom: 50px;
+    }
+    .guidePrice_comment p {
+        line-height:2.5;
+        margin: 0 1rem;
+    }
+    /* .usbtn button{
+        width: 80%;
+    }
+    .babtn button,  */
+    .back_btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;         
+    }
+    button {
+        margin: 0 1%;
+    }
+    .tobtn {
+        margin: 30px 0 20px;
+    }
+}
+/* 616px */

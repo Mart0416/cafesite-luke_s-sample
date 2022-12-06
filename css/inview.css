@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.fade {
+    opacity: 0;/*非表示状態*/
+    transition: 3s;
+    }
+.fade-in {
+    opacity: 1;
+    }
+.slideIn_ltr {/*ltr(left to right)*/
+    opacity: 0;/*非表示状態*/
+    margin-left: -300px;
+    transition: 3s;
+}/*fade-inより先に記述*/
+
+.slideIn_ltr-in {
+    opacity: 1;
+    margin-left: 0;
+}
+.slideIn_dtu {/*ltr(left to right)*/
+    opacity: 0;/*非表示状態*/
+    margin-top: 300px;/*上から下なら－300pxになる*/
+    transition: 3s;
+}/*fade-inより先に記述*/
+
+.slideIn_dtu-in {
+    opacity: 1;
+    margin-top: 0;
+}
